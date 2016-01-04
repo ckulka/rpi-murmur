@@ -22,3 +22,6 @@ To set the SuperUser password, specify it in the ```MUMBLE_SUPW``` environment v
 ```
 docker run --rm -it -p 64738:64738 -e MUMBLE_SUPW=my-secret ckulka/rpi-mumble-server
 ```
+
+### docker-compose
+A sample ```docker-compose.yml``` can be found in the git repo: https://github.com/ckulka/rpi-mumble-server
